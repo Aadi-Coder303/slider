@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slider Puzzle</title>
+  <script src="p5.js"></script>
+  <script src="p5.dom.js"></script>
+  <script src="sketch.js" defer></script>
+</head>
+<body>
+  <div id="canvas-container"></div>
+  <div>
+    Rows: <input id="rows" type="number" min="2" max="10" value="3">
+    Columns: <input id="cols" type="number" min="2" max="10" value="3">
+    <button onclick="resetPuzzle()">Reset Puzzle</button>
+  </div>
+  <p>Win Message: <span id="winMessage"></span></p>
+  <p>Time: <span id="time"></span></p>
+  <p>Moves: <span id="moves"></span></p>
+</body>
+</html>
